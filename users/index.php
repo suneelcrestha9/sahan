@@ -51,7 +51,7 @@
                             <a href="#contact">Contact</a>
                         </li>
                         <li>
-                            <a href="users/login.php">Login</a>
+                            <a href="logout.php">Logout</a>
                         </li>
                     </ul>
                 </div>
