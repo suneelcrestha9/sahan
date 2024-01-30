@@ -1,7 +1,6 @@
 /* Menu section */
 .navNew ul li{
     display: inline-block;
-    color: green;
     margin: 0rem 1rem;
     margin-top: 3rem;
     list-style: none;
@@ -20,4 +19,18 @@
 .blogRow{
     display: flex; 
     justify-content: center;
+}
+
+@media screen and (max-width:600px) {
+       /* Menu section */
+       .navNew{
+        display: none;
+       }
+       .galleryRow,
+        .testimonialsRow,
+        .blogRow,
+        .newRow{
+        display: flex;
+        flex-direction: column;
+       }
 }
