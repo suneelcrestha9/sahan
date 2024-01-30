@@ -1,0 +1,23 @@
+/* Menu section */
+.navNew ul li{
+    display: inline-block;
+    color: green;
+    margin: 0rem 1rem;
+    margin-top: 3rem;
+    list-style: none;
+}
+.navNew ul li a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+
+}
+.newRow{
+    display: flex; 
+}
+.galleryRow,
+.testimonialsRow,
+.blogRow{
+    display: flex; 
+    justify-content: center;
+}
